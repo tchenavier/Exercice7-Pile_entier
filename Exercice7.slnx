@@ -3,5 +3,8 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="../UI/UI.vcxproj">
+    <Platform Project="x64" />
+  </Project>
   <Project Path="Exercice7.vcxproj" />
 </Solution>
